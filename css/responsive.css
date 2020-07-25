@@ -1,0 +1,86 @@
+/* small devices */
+@media only screen and (max-width: 767px) {
+  .img-responsive {
+    width: 50%;
+  }
+
+  .navbar-default {
+    background-color: #fff !important;
+    border-color: #e6e6e6;
+  }
+  .about-iphone img {
+    width: 100%;
+  }
+
+  .purchase-now .col-md-3 {
+    text-align: center;
+    padding-top: 58px;
+  }
+  .feature-iphone img {
+    width: 60% !important;
+    margin-left: 15% !important;
+  }
+  .header-text,
+  .header-btns {
+    margin: 0;
+  }
+
+  .header-text,
+  .header-btns {
+    text-align: center;
+
+    margin-right: -200px !important;
+  }
+}
+
+/* small devices  and Tablets*/
+@media only screen and (max-width: 768px) {
+  .img-responsive {
+    width: 50%;
+  }
+
+  .header-iphone {
+    display: none;
+  }
+
+  .header-text,
+  .header-btns {
+    text-align: center;
+    margin-right: 0 !important;
+  }
+
+  .feature-iphone img {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* Medium devices , desctop */
+
+@media only screen and (max-width: 992px) {
+  .img-responsive {
+    width: 50%;
+  }
+}
+
+/* Large devices wide screen */
+
+@media only screen and (max-width: 1200px) {
+  .header-text,
+  .header-btns {
+    text-align: center;
+    margin-right: 0 !important;
+  }
+  .img-responsive {
+    width: 50%;
+  }
+
+  .about-iphone img {
+    width: 90%;
+  }
+}
+
+.navbar-toggler {
+  margin-right: 25%;
+  background-color: #129cf3;
+}
