@@ -1,1 +1,1 @@
-# example
+# study project
